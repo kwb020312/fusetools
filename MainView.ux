@@ -1,0 +1,11 @@
+<App>
+    <JavaScript>
+        module.exports = {
+            onClicked: function() {
+                console.log("Clicked!!")
+            }
+        }
+    </JavaScript>
+    <Text Value="Hello World" FontSize="30"/>
+    <Button Text="Click Me!!!!" Clicked="{onClicked}" />
+</App>
